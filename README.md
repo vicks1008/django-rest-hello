@@ -41,24 +41,24 @@ $ pipenv shell
 $ python manage.py migrate
 ```
 
-7. Start the python server
+7. Start the Python server
 ```sh
 $ python manage.py runserver $IP:$PORT
 ```
 
 ## What next?
 
-Your python API should be running smoothly.
+Your Python API should be running smoothly.
 
 
 ## Deploy your project to Heroku
-If you don't have your code connected to a github repository, please do it:
+If you don't have your code connected to a github repository, please do so with the commands below:
 ```
 $ git init
 $ git add -A
 $ git commit -m "Initial commit"
 ```
-Then, run these 3 steps to deploy to heroku:
+[Create a free account with Heroku](https://signup.heroku.com/) then run the 3 commands below to deploy to Heroku:
 ```sh
 $ heroku create
 $ git push heroku master
